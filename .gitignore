@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda
+.env
+venv/
+env/
+
+# Outputs
+outputs/
+webapp/outputs/
+
+# Generated Results
+dataset_evaluation/
+evaluation_results/
+*.csv
+*.xlsx
+
+# Models
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Temporary
+tmp/
+temp/
+FINETUNED QWEN/
+FINOUT/
+
+outputs/
+outputs2/
+outputs3/
+outputsKHOP/
+outputsKLAND/
+
+webapp/outputs/
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt

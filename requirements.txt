@@ -1,0 +1,13 @@
+numpy
+opencv-python
+pandas
+peft
+pillow
+pydot
+scikit-learn
+seaborn
+torch
+transformers
+networkx
+matplotlib
+streamlit

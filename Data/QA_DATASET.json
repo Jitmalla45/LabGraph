@@ -1,0 +1,1802 @@
+[
+{
+"image_id": "phy-1",
+"question": "Where is the teacher?",
+"answer": "Teacher is behind the female student at the center.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-1",
+"question": "Where is the lens apparatus?",
+"answer": "Lens apparatus is on the table between the center student and the right student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-1",
+"question": "Where is the ruler?",
+"answer": "Ruler is along the front edge of the table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-1",
+"question": "Where is the teacher relative to the center student?",
+"answer": "Teacher is behind the center student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Where is the right student relative to the lens apparatus?",
+"answer": "Right student is right of the lens apparatus.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Where is the center student relative to the ruler?",
+"answer": "Center student is behind the ruler.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Describe the position of the teacher.",
+"answer": "Teacher is behind the center student, which is behind the ruler.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Explain the location of the right student.",
+"answer": "Right student is right of the lens apparatus, which is on the table.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Describe the position of the lens apparatus.",
+"answer": "Lens apparatus is between the center student and the right student, and on the table.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Locate the lens apparatus using the ruler as a landmark.",
+"answer": "Lens apparatus is behind the ruler.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Where is the center student with respect to the lens apparatus as a landmark?",
+"answer": "Center student is left of the lens apparatus.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Where is the teacher with respect to the ruler as a landmark?",
+"answer": "Teacher is behind the ruler.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-1",
+"question": "Which object was added in the modified image?",
+"answer": "A color wheel apparatus was added on the left side of the table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-1",
+"question": "Which object changed its position between the two images?",
+"answer": "The lens apparatus moved toward the right side of the table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-1",
+"question": "What object disappeared in the modified image?",
+"answer": "The objects on the wall shelf disappeared.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the optical bench?",
+"answer": "Optical bench is on the front laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the female student?",
+"answer": "Female student is right of the male student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the meter?",
+"answer": "Meter is on the right side of the optical bench.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the female student relative to the optical bench?",
+"answer": "Female student is behind the optical bench.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the meter relative to the female student?",
+"answer": "Meter is right of the female student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the male student relative to the red disc?",
+"answer": "Male student is behind the red disc.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Describe the position of the meter.",
+"answer": "Meter is right of the optical bench, which is on the laboratory table.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Explain the location of the female student.",
+"answer": "Female student is right of the male student, who is behind the red disc.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Describe the position of the red disc.",
+"answer": "Red disc is on the optical bench, which is on the laboratory table.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Locate the red disc using the optical bench as a landmark.",
+"answer": "Red disc is on the optical bench.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the meter with respect to the optical bench as a landmark?",
+"answer": "Meter is right of the optical bench.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Where is the female student with respect to the red disc as a landmark?",
+"answer": "Female student is right of the red disc.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-2",
+"question": "Which object was added in the modified image?",
+"answer": "A meter was added on the right side of the optical bench.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-2",
+"question": "What new relationship appeared in the modified image?",
+"answer": "The meter became positioned right of the optical bench.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-2",
+"question": "Which object was added near the female student in the modified image?",
+"answer": "A meter was added near the female student.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the voltmeter?",
+"answer": "Voltmeter is on the front laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the left front student?",
+"answer": "Left front student is left of the voltmeter.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the power supply unit?",
+"answer": "Power supply unit is on the right side of the front laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the voltmeter relative to the left front student?",
+"answer": "Voltmeter is right of the left front student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the power supply unit relative to the right front student?",
+"answer": "Power supply unit is right of the right front student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the rheostat relative to the voltmeter?",
+"answer": "Rheostat is left of the voltmeter.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Describe the position of the power supply unit.",
+"answer": "Power supply unit is right of the right front student, who is right of the voltmeter.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Explain the location of the rheostat.",
+"answer": "Rheostat is left of the voltmeter, which is in front of the middle laboratory bench.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Describe the position of the right front student.",
+"answer": "Right front student is right of the voltmeter, which is on the front laboratory table.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Locate the voltmeter using the left front student as a landmark.",
+"answer": "Voltmeter is right of the left front student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the power supply unit with respect to the voltmeter as a landmark?",
+"answer": "Power supply unit is right of the voltmeter.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Where is the rheostat with respect to the voltmeter as a landmark?",
+"answer": "Rheostat is left of the voltmeter.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-3",
+"question": "Which object was added in the modified image?",
+"answer": "A voltmeter was added on the front laboratory table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-3",
+"question": "Which object was added near the power supply unit in the modified image?",
+"answer": "A circular connector apparatus was added near the power supply unit.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-3",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The voltmeter became positioned between the rheostat and the power supply unit.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the spring apparatus?",
+"answer": "Spring apparatus is on the laboratory table between the teacher and the students.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the notebook?",
+"answer": "Notebook is on the table in front of the center student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the teacher?",
+"answer": "Teacher is left of the center student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the right student relative to the center student?",
+"answer": "Right student is right of the center student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the notebook relative to the right student?",
+"answer": "Notebook is left of the right student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the spring apparatus relative to the notebook?",
+"answer": "Spring apparatus is behind the notebook.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Describe the position of the teacher.",
+"answer": "Teacher is left of the center student, who is behind the notebook.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Explain the location of the spring apparatus.",
+"answer": "Spring apparatus is behind the notebook, which is in front of the center student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Describe the position of the right student.",
+"answer": "Right student is right of the center student, who is right of the teacher.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Locate the notebook using the center student as a landmark.",
+"answer": "Notebook is in front of the center student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the spring apparatus with respect to the notebook as a landmark?",
+"answer": "Spring apparatus is behind the notebook.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Where is the teacher with respect to the spring apparatus as a landmark?",
+"answer": "Teacher is left of the spring apparatus.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-4",
+"question": "Which object was added in the modified image?",
+"answer": "A vertical measuring scale was added on the right side of the table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-4",
+"question": "Which measuring instrument was added near the spring apparatus in the modified image?",
+"answer": "A voltmeter was added near the spring apparatus.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-4",
+"question": "What new objects appeared on the front table in the modified image?",
+"answer": "A vertical measuring scale, a voltmeter, connecting wires, and a pencil case appeared on the table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the vertical stand?",
+"answer": "Vertical stand is on the laboratory bench near the center.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the rightmost girl student?",
+"answer": "Rightmost girl student is right of the hanging spring setup.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the hanging spring setup?",
+"answer": "Hanging spring setup is between the two girl students on the right side.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the vertical stand relative to the gauge?",
+"answer": "Vertical stand is left of the gauge.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the gauge relative to the vertical stand?",
+"answer": "Gauge is right of the vertical stand.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the rightmost girl student relative to the hanging spring setup?",
+"answer": "Rightmost girl student is right of the hanging spring setup.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Describe the position of the gauge.",
+"answer": "Gauge is right of the vertical stand, which is on the laboratory bench.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Explain the location of the hanging spring setup.",
+"answer": "Hanging spring setup is between the two girl students, who are right of the gauge.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Describe the position of the rightmost girl student.",
+"answer": "Rightmost girl student is right of the hanging spring setup, which is right of the gauge.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Locate the gauge using the vertical stand as a landmark.",
+"answer": "Gauge is right of the vertical stand.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the hanging spring setup with respect to the gauge as a landmark?",
+"answer": "Hanging spring setup is right of the gauge.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Where is the rightmost girl student with respect to the hanging spring setup as a landmark?",
+"answer": "Rightmost girl student is right of the hanging spring setup.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-5",
+"question": "Which object was added in the modified image?",
+"answer": "A gauge was added near the center of the laboratory bench.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-5",
+"question": "Which relationship changed between the vertical stand and the center apparatus?",
+"answer": "The gauge became positioned right of the vertical stand.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-5",
+"question": "What new object appeared between the vertical stand and the wooden block in the modified image?",
+"answer": "A gauge appeared between the vertical stand and the wooden block.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the graduated cylinder apparatus?",
+"answer": "Graduated cylinder apparatus is on the laboratory bench near the center students.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the left student?",
+"answer": "Left student is left of the graduated cylinder apparatus.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the optical rail setup?",
+"answer": "Optical rail setup is on the right side of the laboratory bench.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the center student relative to the graduated cylinder apparatus?",
+"answer": "Center student is left of the graduated cylinder apparatus.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the right student relative to the graduated cylinder apparatus?",
+"answer": "Right student is right of the graduated cylinder apparatus.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the optical rail setup relative to the right student?",
+"answer": "Optical rail setup is right of the right student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Describe the position of the optical rail setup.",
+"answer": "Optical rail setup is right of the right student, who is right of the graduated cylinder apparatus.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Explain the location of the left student.",
+"answer": "Left student is left of the graduated cylinder apparatus, which is left of the optical rail setup.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Describe the position of the graduated cylinder apparatus.",
+"answer": "Graduated cylinder apparatus is between the center student and the right student, and left of the optical rail setup.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Locate the graduated cylinder apparatus using the center student as a landmark.",
+"answer": "Graduated cylinder apparatus is right of the center student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the optical rail setup with respect to the graduated cylinder apparatus as a landmark?",
+"answer": "Optical rail setup is right of the graduated cylinder apparatus.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Where is the right student with respect to the graduated cylinder apparatus as a landmark?",
+"answer": "Right student is right of the graduated cylinder apparatus.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-6",
+"question": "Which object was added in the modified image?",
+"answer": "A spectrometer was added near the center-right portion of the laboratory bench.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-6",
+"question": "What new relationship appeared in the modified image?",
+"answer": "The spectrometer became positioned between the graduated cylinder apparatus and the optical rail setup.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-6",
+"question": "Which object was added near the optical rail setup in the modified image?",
+"answer": "A spectrometer was added near the optical rail setup.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the electrical control panel?",
+"answer": "Electrical control panel is on the laboratory bench in front of the students.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the middle student?",
+"answer": "Middle student is between the left student and the right student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the right student?",
+"answer": "Right student is right of the electrical control panel.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the middle student relative to the electrical control panel?",
+"answer": "Middle student is behind the electrical control panel.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the right student relative to the middle student?",
+"answer": "Right student is right of the middle student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the left student relative to the electrical control panel?",
+"answer": "Left student is left of the electrical control panel.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Describe the position of the right student.",
+"answer": "Right student is right of the middle student, which is behind the electrical control panel.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Explain the location of the left student.",
+"answer": "Left student is left of the electrical control panel, which is in front of the middle student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Describe the position of the electrical control panel.",
+"answer": "Electrical control panel is in front of the middle student and between the left student and the right student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Locate the electrical control panel using the middle student as a landmark.",
+"answer": "Electrical control panel is in front of the middle student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the right student with respect to the electrical control panel as a landmark?",
+"answer": "Right student is right of the electrical control panel.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Where is the left student with respect to the middle student as a landmark?",
+"answer": "Left student is left of the middle student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-7",
+"question": "Which object was added in the modified image?",
+"answer": "A compass instrument was added on the right side of the electrical control panel.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-7",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The compass instrument became positioned right of the electrical control panel.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-7",
+"question": "Which object appeared between the electrical control panel and the wall socket in the modified image?",
+"answer": "A compass instrument appeared between the electrical control panel and the wall socket.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the inclined plane apparatus?",
+"answer": "Inclined plane apparatus is on the laboratory bench in front of the students.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the hanging mass?",
+"answer": "Hanging mass is suspended from the right side of the inclined plane apparatus.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the second student from the left?",
+"answer": "Second student from the left is behind the inclined plane apparatus.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the hanging mass relative to the inclined plane apparatus?",
+"answer": "Hanging mass is right of the inclined plane apparatus.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the leftmost student relative to the inclined plane apparatus?",
+"answer": "Leftmost student is left of the inclined plane apparatus.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the rightmost student relative to the hanging mass?",
+"answer": "Rightmost student is right of the hanging mass.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Describe the position of the hanging mass.",
+"answer": "Hanging mass is right of the inclined plane apparatus, which is in front of the students.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Explain the location of the rightmost student.",
+"answer": "Rightmost student is right of the hanging mass, which is right of the inclined plane apparatus.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Describe the position of the leftmost student.",
+"answer": "Leftmost student is left of the inclined plane apparatus, which is left of the hanging mass.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Locate the hanging mass using the inclined plane apparatus as a landmark.",
+"answer": "Hanging mass is right of the inclined plane apparatus.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the rightmost student with respect to the hanging mass as a landmark?",
+"answer": "Rightmost student is right of the hanging mass.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Where is the second student from the left with respect to the inclined plane apparatus as a landmark?",
+"answer": "Second student from the left is behind the inclined plane apparatus.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-8",
+"question": "Which object was added in the modified image?",
+"answer": "An electrical meter panel was added on the left side of the laboratory bench.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-8",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The electrical meter panel became positioned left of the inclined plane apparatus.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-8",
+"question": "Which object appeared near the leftmost student in the modified image?",
+"answer": "An electrical meter panel appeared near the leftmost student.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the teacher?",
+"answer": "Teacher is left of the students near the laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the resistance box?",
+"answer": "Resistance box is on the laboratory table in front of the students.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the rightmost female student?",
+"answer": "Rightmost female student is right of the resistance box.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the resistance box relative to the teacher?",
+"answer": "Resistance box is right of the teacher.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the rightmost female student relative to the compass instrument?",
+"answer": "Rightmost female student is right of the compass instrument.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the male student relative to the teacher?",
+"answer": "Male student is right of the teacher.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Describe the position of the compass instrument.",
+"answer": "Compass instrument is right of the resistance box, which is right of the teacher.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Explain the location of the rightmost female student.",
+"answer": "Rightmost female student is right of the compass instrument, which is right of the resistance box.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Describe the position of the resistance box.",
+"answer": "Resistance box is right of the teacher and left of the compass instrument.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Locate the compass instrument using the resistance box as a landmark.",
+"answer": "Compass instrument is right of the resistance box.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the resistance box with respect to the teacher as a landmark?",
+"answer": "Resistance box is right of the teacher.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Where is the rightmost female student with respect to the compass instrument as a landmark?",
+"answer": "Rightmost female student is right of the compass instrument.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-9",
+"question": "Which object was added in the modified image?",
+"answer": "A compass instrument was added on the laboratory table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-9",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The compass instrument became positioned between the resistance box and the rightmost female student.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-9",
+"question": "Which object appeared to the right of the resistance box in the modified image?",
+"answer": "A compass instrument appeared to the right of the resistance box.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the microscope?",
+"answer": "Microscope is on the laboratory table in front of the female student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the female student?",
+"answer": "Female student is left of the microscope.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the teacher?",
+"answer": "Teacher is behind the microscope near the red table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the microscope relative to the female student?",
+"answer": "Microscope is right of the female student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the teacher relative to the seated student?",
+"answer": "Teacher is right of the seated student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the seated student relative to the microscope?",
+"answer": "Seated student is behind the microscope.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Describe the position of the teacher.",
+"answer": "Teacher is behind the microscope, which is right of the female student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Explain the location of the seated student.",
+"answer": "Seated student is behind the microscope, which is in front of the female student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Describe the position of the microscope.",
+"answer": "Microscope is right of the female student and in front of the seated student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Locate the microscope using the female student as a landmark.",
+"answer": "Microscope is right of the female student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the teacher with respect to the microscope as a landmark?",
+"answer": "Teacher is behind the microscope.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Where is the seated student with respect to the microscope as a landmark?",
+"answer": "Seated student is behind the microscope.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-10",
+"question": "Which object was added in the modified image?",
+"answer": "A voltmeter was added behind the microscope.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-10",
+"question": "Which additional instrument appeared on the right side of the laboratory counter in the modified image?",
+"answer": "A compass instrument appeared on the right side of the laboratory counter.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-10",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The voltmeter became positioned behind the microscope and left of the compass instrument.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the microscope?",
+"answer": "Microscope is on the laboratory table in front of the right student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the left student?",
+"answer": "Left student is left of the microscope.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the voltmeter?",
+"answer": "Voltmeter is on the table behind the microscope.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the microscope relative to the right student?",
+"answer": "Microscope is in front of the right student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the voltmeter relative to the microscope?",
+"answer": "Voltmeter is behind the microscope.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the left student relative to the voltmeter?",
+"answer": "Left student is left of the voltmeter.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Describe the position of the voltmeter.",
+"answer": "Voltmeter is behind the microscope, which is in front of the right student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Explain the location of the left student.",
+"answer": "Left student is left of the microscope, which is left of the voltmeter.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Describe the position of the microscope.",
+"answer": "Microscope is in front of the right student and in front of the voltmeter.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Locate the microscope using the right student as a landmark.",
+"answer": "Microscope is in front of the right student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the voltmeter with respect to the microscope as a landmark?",
+"answer": "Voltmeter is behind the microscope.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Where is the left student with respect to the microscope as a landmark?",
+"answer": "Left student is left of the microscope.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-11",
+"question": "Which object was added in the modified image?",
+"answer": "A voltmeter was added on the table behind the microscope.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-11",
+"question": "Which laboratory object appeared on the front table in the modified image?",
+"answer": "Several laboratory glassware items and a test tube rack appeared on the front table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-11",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The voltmeter became positioned behind the microscope and between the two students.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the electrical circuit trainer?",
+"answer": "Electrical circuit trainer is on the laboratory table in front of the group.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the teacher?",
+"answer": "Teacher is behind the electrical circuit trainer near the center.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the leftmost male student?",
+"answer": "Leftmost male student is left of the electrical circuit trainer.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the teacher relative to the electrical circuit trainer?",
+"answer": "Teacher is behind the electrical circuit trainer.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the leftmost male student relative to the teacher?",
+"answer": "Leftmost male student is left of the teacher.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the rightmost female student relative to the electrical circuit trainer?",
+"answer": "Rightmost female student is right of the electrical circuit trainer.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Describe the position of the teacher.",
+"answer": "Teacher is behind the electrical circuit trainer, which is between the leftmost male student and the rightmost female student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Explain the location of the rightmost female student.",
+"answer": "Rightmost female student is right of the electrical circuit trainer, which is in front of the teacher.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Describe the position of the electrical circuit trainer.",
+"answer": "Electrical circuit trainer is in front of the teacher and between the students on the left and right.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Locate the electrical circuit trainer using the teacher as a landmark.",
+"answer": "Electrical circuit trainer is in front of the teacher.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the rightmost female student with respect to the electrical circuit trainer as a landmark?",
+"answer": "Rightmost female student is right of the electrical circuit trainer.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Where is the leftmost male student with respect to the teacher as a landmark?",
+"answer": "Leftmost male student is left of the teacher.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-12",
+"question": "Which object was added in the modified image?",
+"answer": "A compass instrument was added on the left side of the electrical circuit trainer.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-12",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The compass instrument became positioned left of the electrical circuit trainer.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-12",
+"question": "Which object appeared between the leftmost male student and the electrical circuit trainer in the modified image?",
+"answer": "A compass instrument appeared between the leftmost male student and the electrical circuit trainer.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the power supply unit?",
+"answer": "Power supply unit is on the left side of the laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the central female student?",
+"answer": "Central female student is behind the electrical machine setup.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the male student?",
+"answer": "Male student is left of the central female student.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the power supply unit relative to the male student?",
+"answer": "Power supply unit is left of the male student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the central female student relative to the electrical machine setup?",
+"answer": "Central female student is behind the electrical machine setup.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the right female student relative to the central female student?",
+"answer": "Right female student is right of the central female student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Describe the position of the power supply unit.",
+"answer": "Power supply unit is left of the male student, who is left of the central female student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Explain the location of the right female student.",
+"answer": "Right female student is right of the central female student, who is behind the electrical machine setup.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Describe the position of the electrical machine setup.",
+"answer": "Electrical machine setup is in front of the central female student and right of the power supply unit.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Locate the electrical machine setup using the central female student as a landmark.",
+"answer": "Electrical machine setup is in front of the central female student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the power supply unit with respect to the electrical machine setup as a landmark?",
+"answer": "Power supply unit is left of the electrical machine setup.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Where is the right female student with respect to the central female student as a landmark?",
+"answer": "Right female student is right of the central female student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-13",
+"question": "Which object was added in the modified image?",
+"answer": "A multi-meter panel was added at the center of the laboratory table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-13",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The multi-meter panel became positioned between the power supply unit and the right female student.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-13",
+"question": "Which new object appeared in front of the central female student in the modified image?",
+"answer": "A multi-meter panel appeared in front of the central female student.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the skeleton model?",
+"answer": "Skeleton model is at the center back of the laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the black microscope?",
+"answer": "Black microscope is on the front-left side of the laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the white microscope on the right?",
+"answer": "White microscope is on the front-right side of the laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the skeleton model relative to the cabinets?",
+"answer": "Skeleton model is in front of the cabinets.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the black microscope relative to the skeleton model?",
+"answer": "Black microscope is in front of and left of the skeleton model.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the white microscope relative to the black microscope?",
+"answer": "White microscope is right of the black microscope.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Describe the position of the black microscope.",
+"answer": "Black microscope is left of the skeleton model, which is in front of the cabinets.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Explain the location of the white microscope.",
+"answer": "White microscope is right of the black microscope, which is left of the skeleton model.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Describe the position of the cabinets.",
+"answer": "Cabinets are behind the skeleton model, which is behind the microscopes.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Locate the skeleton model using the cabinets as a landmark.",
+"answer": "Skeleton model is in front of the cabinets.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the black microscope with respect to the skeleton model as a landmark?",
+"answer": "Black microscope is left of and in front of the skeleton model.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Where is the white microscope with respect to the skeleton model as a landmark?",
+"answer": "White microscope is right of and in front of the skeleton model.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-14",
+"question": "Which object was added in the modified image?",
+"answer": "A multi-meter control panel was added at the center of the laboratory table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-14",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The multi-meter control panel became positioned between the front-left microscope and the front-right microscope.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-14",
+"question": "Which new object appeared in front of the skeleton model in the modified image?",
+"answer": "A multi-meter control panel appeared in front of the skeleton model.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the microscope?",
+"answer": "Microscope is on the right side of the laboratory table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the teacher?",
+"answer": "Teacher is at the center of the group behind the table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the graduated cylinder?",
+"answer": "Graduated cylinder is on the front-right side of the table.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the microscope relative to the graduated cylinder?",
+"answer": "Microscope is left of the graduated cylinder.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the teacher relative to the microscope?",
+"answer": "Teacher is left of and behind the microscope.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the student using the microscope relative to the teacher?",
+"answer": "Student using the microscope is right of the teacher.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Describe the position of the graduated cylinder.",
+"answer": "Graduated cylinder is right of the microscope, which is right of the teacher.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Explain the location of the microscope.",
+"answer": "Microscope is right of the teacher, who is between the students on the left and the student using the microscope.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Describe the position of the student using the microscope.",
+"answer": "Student using the microscope is right of the teacher, who is between the left-side students and the microscope user.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Locate the microscope using the teacher as a landmark.",
+"answer": "Microscope is right of the teacher.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the graduated cylinder with respect to the microscope as a landmark?",
+"answer": "Graduated cylinder is right of the microscope.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Where is the teacher with respect to the microscope as a landmark?",
+"answer": "Teacher is left of the microscope.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "phy-26",
+"question": "Which object was added in the modified image?",
+"answer": "A laboratory analyzer machine was added on the left side of the table.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-26",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The laboratory analyzer machine became positioned left of the teacher and left of the microscope.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "phy-26",
+"question": "Which new object appeared opposite the microscope in the modified image?",
+"answer": "A laboratory analyzer machine appeared on the opposite side of the table from the microscope.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+}
+]
