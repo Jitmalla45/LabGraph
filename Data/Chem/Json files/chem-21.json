@@ -1,0 +1,182 @@
+{
+  "Chemistry-Lab-21.jpg437702": {
+    "filename": "Chemistry-Lab-21.jpg",
+    "size": 437702,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 55,
+          "y": 768,
+          "width": 261,
+          "height": 365
+        },
+        "region_attributes": {
+          "name": "Water Tap 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 445,
+          "y": 680,
+          "width": 187,
+          "height": 315
+        },
+        "region_attributes": {
+          "name": "Water Tap 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1041,
+          "y": 597,
+          "width": 91,
+          "height": 193
+        },
+        "region_attributes": {
+          "name": "Water Tap 3",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1210,
+          "y": 581,
+          "width": 74,
+          "height": 149
+        },
+        "region_attributes": {
+          "name": "Water Tap 4",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 670,
+          "y": 144,
+          "width": 286,
+          "height": 176
+        },
+        "region_attributes": {
+          "name": "Set of Gas Jars 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 683,
+          "y": 388,
+          "width": 252,
+          "height": 190
+        },
+        "region_attributes": {
+          "name": "Set of Gas Jars 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 681,
+          "y": 620,
+          "width": 290,
+          "height": 182
+        },
+        "region_attributes": {
+          "name": "Set of Gas Jars 3",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1187,
+          "y": 372,
+          "width": 154,
+          "height": 316
+        },
+        "region_attributes": {
+          "name": "Set of Gas Jars 4",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 287,
+          "y": 27,
+          "width": 208,
+          "height": 924
+        },
+        "region_attributes": {
+          "name": "Stand 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 590,
+          "y": 0,
+          "width": 228,
+          "height": 987
+        },
+        "region_attributes": {
+          "name": "Stand 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1047,
+          "y": 44,
+          "width": 529,
+          "height": 1079
+        },
+        "region_attributes": {
+          "name": "Boy 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1634,
+          "y": 207,
+          "width": 227,
+          "height": 531
+        },
+        "region_attributes": {
+          "name": "Boy 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "Girl",
+          "type": "human"
+        },
+        "shape_attributes": {
+          "name": "rect",
+          "x": 88,
+          "y": 143,
+          "width": 210,
+          "height": 479
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

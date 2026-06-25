@@ -1,0 +1,104 @@
+{
+  "Chemistry-Lab-22.jpg37764": {
+    "filename": "Chemistry-Lab-22.jpg",
+    "size": 37764,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 273,
+          "y": 153,
+          "width": 46,
+          "height": 131
+        },
+        "region_attributes": {
+          "name": "Volumetric Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 197,
+          "y": 245,
+          "width": 37,
+          "height": 49
+        },
+        "region_attributes": {
+          "name": "Beaker 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 242,
+          "y": 224,
+          "width": 29,
+          "height": 65
+        },
+        "region_attributes": {
+          "name": "Conical Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 332,
+          "y": 250,
+          "width": 29,
+          "height": 35
+        },
+        "region_attributes": {
+          "name": "Beaker 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 44,
+          "y": 21,
+          "width": 141,
+          "height": 356
+        },
+        "region_attributes": {
+          "name": "Teacher",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 220,
+          "y": 56,
+          "width": 112,
+          "height": 165
+        },
+        "region_attributes": {
+          "name": "Girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 347,
+          "y": 34,
+          "width": 116,
+          "height": 165
+        },
+        "region_attributes": {
+          "name": "Girl 2",
+          "type": "human"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

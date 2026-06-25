@@ -1,0 +1,195 @@
+{
+  "Chemistry-Lab-13.jpg9104360": {
+    "filename": "Chemistry-Lab-13.jpg",
+    "size": 9104360,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 4000,
+          "y": 720,
+          "width": 817,
+          "height": 3080
+        },
+        "region_attributes": {
+          "name": "Stand and Burettes 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 5103,
+          "y": 1423,
+          "width": 771,
+          "height": 2966
+        },
+        "region_attributes": {
+          "name": "Stand and Burettes 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 4040,
+          "y": 2920,
+          "width": 429,
+          "height": 629
+        },
+        "region_attributes": {
+          "name": "Conical Flask 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 5457,
+          "y": 3777,
+          "width": 394,
+          "height": 663
+        },
+        "region_attributes": {
+          "name": "Conical Flask 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 205,
+          "y": 3514,
+          "width": 366,
+          "height": 897
+        },
+        "region_attributes": {
+          "name": "Test tube 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 766,
+          "y": 3526,
+          "width": 303,
+          "height": 857
+        },
+        "region_attributes": {
+          "name": "test tube 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2051,
+          "y": 3303,
+          "width": 394,
+          "height": 697
+        },
+        "region_attributes": {
+          "name": "test tube 3",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2651,
+          "y": 3337,
+          "width": 269,
+          "height": 709
+        },
+        "region_attributes": {
+          "name": "test tube 4",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1394,
+          "y": 3594,
+          "width": 2446,
+          "height": 777
+        },
+        "region_attributes": {
+          "name": "Gas Pipe and Burners",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 5423,
+          "y": 1332,
+          "width": 1029,
+          "height": 1943
+        },
+        "region_attributes": {
+          "name": "Boy 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 4537,
+          "y": 1171,
+          "width": 686,
+          "height": 1680
+        },
+        "region_attributes": {
+          "name": "Boy 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 4114,
+          "y": 1109,
+          "width": 400,
+          "height": 869
+        },
+        "region_attributes": {
+          "name": "Boy 3",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 543,
+          "y": 1623,
+          "width": 2583,
+          "height": 1589
+        },
+        "region_attributes": {
+          "name": "Girls ",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2034,
+          "y": 1069,
+          "width": 480,
+          "height": 714
+        },
+        "region_attributes": {
+          "name": "Boy 4",
+          "type": "human"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

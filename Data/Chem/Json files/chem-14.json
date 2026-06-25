@@ -1,0 +1,143 @@
+{
+  "Chemistry-Lab-14.jpg26421": {
+    "filename": "Chemistry-Lab-14.jpg",
+    "size": 26421,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 87,
+          "y": 44,
+          "width": 61,
+          "height": 50
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 13,
+          "y": 74,
+          "width": 33,
+          "height": 309
+        },
+        "region_attributes": {
+          "name": "Stands",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 211,
+          "y": 186,
+          "width": 32,
+          "height": 33
+        },
+        "region_attributes": {
+          "name": "Electric Switch",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 206,
+          "y": 47,
+          "width": 19,
+          "height": 63
+        },
+        "region_attributes": {
+          "name": "Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 153,
+          "y": 65,
+          "width": 38,
+          "height": 44
+        },
+        "region_attributes": {
+          "name": "Conical Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 332,
+          "y": 93,
+          "width": 39,
+          "height": 29
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 321,
+          "y": 145,
+          "width": 184,
+          "height": 230
+        },
+        "region_attributes": {
+          "name": "Girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 451,
+          "y": 112,
+          "width": 112,
+          "height": 124
+        },
+        "region_attributes": {
+          "name": "Boy 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 151,
+          "y": 125,
+          "width": 49,
+          "height": 55
+        },
+        "region_attributes": {
+          "name": "Boy 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 281,
+          "y": 140,
+          "width": 38,
+          "height": 61
+        },
+        "region_attributes": {
+          "name": "Boy 3",
+          "type": "human"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

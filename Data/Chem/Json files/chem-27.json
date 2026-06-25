@@ -1,0 +1,195 @@
+{
+  "Chemistry-Lab-27.jpg466363": {
+    "filename": "Chemistry-Lab-27.jpg",
+    "size": 466363,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 906,
+          "y": 385,
+          "width": 135,
+          "height": 849
+        },
+        "region_attributes": {
+          "name": "Burettes 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 653,
+          "y": 562,
+          "width": 148,
+          "height": 440
+        },
+        "region_attributes": {
+          "name": "Burettes 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1010,
+          "y": 710,
+          "width": 179,
+          "height": 701
+        },
+        "region_attributes": {
+          "name": "Stand 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 764,
+          "y": 640,
+          "width": 67,
+          "height": 433
+        },
+        "region_attributes": {
+          "name": "Stand 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1330,
+          "y": 705,
+          "width": 91,
+          "height": 322
+        },
+        "region_attributes": {
+          "name": "Stand 3",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1145,
+          "y": 1108,
+          "width": 104,
+          "height": 139
+        },
+        "region_attributes": {
+          "name": "conical Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2120,
+          "y": 361,
+          "width": 427,
+          "height": 932
+        },
+        "region_attributes": {
+          "name": "Boy 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1853,
+          "y": 596,
+          "width": 263,
+          "height": 856
+        },
+        "region_attributes": {
+          "name": "Boy 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1674,
+          "y": 440,
+          "width": 172,
+          "height": 435
+        },
+        "region_attributes": {
+          "name": "Boy 3",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1384,
+          "y": 573,
+          "width": 200,
+          "height": 300
+        },
+        "region_attributes": {
+          "name": "girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1250,
+          "y": 607,
+          "width": 174,
+          "height": 216
+        },
+        "region_attributes": {
+          "name": "girl 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 115,
+          "y": 557,
+          "width": 370,
+          "height": 816
+        },
+        "region_attributes": {
+          "name": "Boy 4",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 812,
+          "y": 7,
+          "width": 348,
+          "height": 96
+        },
+        "region_attributes": {
+          "name": "Fan 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1602,
+          "y": 26,
+          "width": 383,
+          "height": 179
+        },
+        "region_attributes": {
+          "name": "Fan 2",
+          "type": "Object"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

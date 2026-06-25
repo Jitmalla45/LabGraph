@@ -1,0 +1,104 @@
+{
+  "Chemistry-Lab-7.jpg398839": {
+    "filename": "Chemistry-Lab-7.jpg",
+    "size": 398839,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 340,
+          "y": 332,
+          "width": 109,
+          "height": 193
+        },
+        "region_attributes": {
+          "name": "Conical Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 120,
+          "y": 551,
+          "width": 173,
+          "height": 108
+        },
+        "region_attributes": {
+          "name": "Burner Stand",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 720,
+          "y": 421,
+          "width": 265,
+          "height": 224
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 804,
+          "y": 277,
+          "width": 169,
+          "height": 95
+        },
+        "region_attributes": {
+          "name": "Droppers",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 565,
+          "y": 40,
+          "width": 144,
+          "height": 175
+        },
+        "region_attributes": {
+          "name": "Stands",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 121,
+          "y": 33,
+          "width": 339,
+          "height": 539
+        },
+        "region_attributes": {
+          "name": "Girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 784,
+          "y": 69,
+          "width": 209,
+          "height": 333
+        },
+        "region_attributes": {
+          "name": "Girl 2",
+          "type": "human"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

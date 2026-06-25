@@ -1,0 +1,182 @@
+{
+  "Chemistry-Lab-4.jpg224462": {
+    "filename": "Chemistry-Lab-4.jpg",
+    "size": 224462,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 858,
+          "y": 442,
+          "width": 61,
+          "height": 113
+        },
+        "region_attributes": {
+          "name": "Wash Bottle",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 579,
+          "y": 443,
+          "width": 264,
+          "height": 102
+        },
+        "region_attributes": {
+          "name": "Wash Basin 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 209,
+          "y": 349,
+          "width": 146,
+          "height": 56
+        },
+        "region_attributes": {
+          "name": "Wash basin 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 644,
+          "y": 264,
+          "width": 524,
+          "height": 87
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 559,
+          "y": 60,
+          "width": 51,
+          "height": 275
+        },
+        "region_attributes": {
+          "name": "Stand",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 185,
+          "y": 237,
+          "width": 242,
+          "height": 53
+        },
+        "region_attributes": {
+          "name": "Gas Jars 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1316,
+          "y": 121,
+          "width": 49,
+          "height": 212
+        },
+        "region_attributes": {
+          "name": "Stand 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 982,
+          "y": 453,
+          "width": 41,
+          "height": 59
+        },
+        "region_attributes": {
+          "name": "Beaker",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 65,
+          "y": 106,
+          "width": 168,
+          "height": 294
+        },
+        "region_attributes": {
+          "name": "Boy 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 370,
+          "y": 56,
+          "width": 230,
+          "height": 409
+        },
+        "region_attributes": {
+          "name": "Boy 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1104,
+          "y": 144,
+          "width": 194,
+          "height": 548
+        },
+        "region_attributes": {
+          "name": "boy 3",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1284,
+          "y": 189,
+          "width": 229,
+          "height": 379
+        },
+        "region_attributes": {
+          "name": "Girls",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 926,
+          "y": 470,
+          "width": 35,
+          "height": 76
+        },
+        "region_attributes": {
+          "name": "Gas Jar",
+          "type": "Object"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

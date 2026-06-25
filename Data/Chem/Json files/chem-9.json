@@ -1,0 +1,156 @@
+{
+  "Chemistry-Lab-9.jpg229376": {
+    "filename": "Chemistry-Lab-9.jpg",
+    "size": 229376,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 28,
+          "y": 383,
+          "width": 102,
+          "height": 197
+        },
+        "region_attributes": {
+          "name": "Wash Bottle",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 47,
+          "y": 559,
+          "width": 101,
+          "height": 54
+        },
+        "region_attributes": {
+          "name": "Spoon",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 191,
+          "y": 291,
+          "width": 567,
+          "height": 166
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 859,
+          "y": 411,
+          "width": 91,
+          "height": 182
+        },
+        "region_attributes": {
+          "name": "Jar 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 456,
+          "y": 432,
+          "width": 82,
+          "height": 174
+        },
+        "region_attributes": {
+          "name": "Jar 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 479,
+          "y": 372,
+          "width": 62,
+          "height": 236
+        },
+        "region_attributes": {
+          "name": "Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 338,
+          "y": 171,
+          "width": 423,
+          "height": 90
+        },
+        "region_attributes": {
+          "name": "Droppers",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 372,
+          "y": 83,
+          "width": 84,
+          "height": 150
+        },
+        "region_attributes": {
+          "name": "Jar 3",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 294,
+          "y": 470,
+          "width": 74,
+          "height": 166
+        },
+        "region_attributes": {
+          "name": "Bunsen Burner",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 612,
+          "y": 31,
+          "width": 64,
+          "height": 583
+        },
+        "region_attributes": {
+          "name": "Stand",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 694,
+          "y": 461,
+          "width": 99,
+          "height": 140
+        },
+        "region_attributes": {
+          "name": "Flask 2",
+          "type": "Object"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "Chemistry-Lab-16.jpg99566": {
+    "filename": "Chemistry-Lab-16.jpg",
+    "size": 99566,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 210,
+          "y": 74,
+          "width": 49,
+          "height": 203
+        },
+        "region_attributes": {
+          "name": "Burettes 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 583,
+          "y": 115,
+          "width": 22,
+          "height": 112
+        },
+        "region_attributes": {
+          "name": "Burettes 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 395,
+          "y": 233,
+          "width": 57,
+          "height": 98
+        },
+        "region_attributes": {
+          "name": "Water Tap 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 627,
+          "y": 187,
+          "width": 37,
+          "height": 67
+        },
+        "region_attributes": {
+          "name": "Water Tap 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 705,
+          "y": 181,
+          "width": 28,
+          "height": 47
+        },
+        "region_attributes": {
+          "name": "Water Tap 3",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 227,
+          "y": 275,
+          "width": 27,
+          "height": 49
+        },
+        "region_attributes": {
+          "name": "Conical Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 278,
+          "y": 283,
+          "width": 34,
+          "height": 59
+        },
+        "region_attributes": {
+          "name": "Wash Bottle",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 253,
+          "y": 312,
+          "width": 20,
+          "height": 33
+        },
+        "region_attributes": {
+          "name": "Gas Jar",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 10,
+          "y": 128,
+          "width": 136,
+          "height": 420
+        },
+        "region_attributes": {
+          "name": "Girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 170,
+          "y": 211,
+          "width": 35,
+          "height": 67
+        },
+        "region_attributes": {
+          "name": "Water Tap 4",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 483,
+          "y": 148,
+          "width": 85,
+          "height": 163
+        },
+        "region_attributes": {
+          "name": "Girl 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 713,
+          "y": 135,
+          "width": 66,
+          "height": 99
+        },
+        "region_attributes": {
+          "name": "Boy 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 240,
+          "y": 207,
+          "width": 76,
+          "height": 46
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 17,
+          "y": 45,
+          "width": 424,
+          "height": 117
+        },
+        "region_attributes": {
+          "name": "Shelf",
+          "type": "Object"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

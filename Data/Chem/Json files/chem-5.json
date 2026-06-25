@@ -1,0 +1,182 @@
+{
+  "Chemistry-Lab-5.jpg460105": {
+    "filename": "Chemistry-Lab-5.jpg",
+    "size": 460105,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 245,
+          "y": 393,
+          "width": 419,
+          "height": 126
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 218,
+          "y": 492,
+          "width": 81,
+          "height": 132
+        },
+        "region_attributes": {
+          "name": "Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 704,
+          "y": 541,
+          "width": 147,
+          "height": 63
+        },
+        "region_attributes": {
+          "name": "Crucible",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 327,
+          "y": 478,
+          "width": 66,
+          "height": 170
+        },
+        "region_attributes": {
+          "name": "Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 396,
+          "y": 545,
+          "width": 41,
+          "height": 116
+        },
+        "region_attributes": {
+          "name": "Conical Flask",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 877,
+          "y": 313,
+          "width": 78,
+          "height": 116
+        },
+        "region_attributes": {
+          "name": "Burner Stand",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 51,
+          "y": 6,
+          "width": 61,
+          "height": 425
+        },
+        "region_attributes": {
+          "name": "Stand",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 129,
+          "y": 243,
+          "width": 47,
+          "height": 58
+        },
+        "region_attributes": {
+          "name": "Dropper 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 379,
+          "y": 233,
+          "width": 73,
+          "height": 62
+        },
+        "region_attributes": {
+          "name": "Dropper 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 562,
+          "y": 278,
+          "width": 70,
+          "height": 72
+        },
+        "region_attributes": {
+          "name": "Droppers",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 640,
+          "y": 115,
+          "width": 169,
+          "height": 243
+        },
+        "region_attributes": {
+          "name": "Girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 329,
+          "y": 102,
+          "width": 241,
+          "height": 299
+        },
+        "region_attributes": {
+          "name": "girl 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 108,
+          "y": 134,
+          "width": 176,
+          "height": 212
+        },
+        "region_attributes": {
+          "name": "Girl 3",
+          "type": "human"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

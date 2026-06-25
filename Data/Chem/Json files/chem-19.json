@@ -1,0 +1,156 @@
+{
+  "Chemistry-Lab-19.jpg122894": {
+    "filename": "Chemistry-Lab-19.jpg",
+    "size": 122894,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 521,
+          "y": 6,
+          "width": 39,
+          "height": 494
+        },
+        "region_attributes": {
+          "name": "Burettes 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 566,
+          "y": 70,
+          "width": 15,
+          "height": 337
+        },
+        "region_attributes": {
+          "name": "Burettes 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 468,
+          "y": 549,
+          "width": 48,
+          "height": 176
+        },
+        "region_attributes": {
+          "name": "Volumetric flasks",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 196,
+          "y": 295,
+          "width": 195,
+          "height": 91
+        },
+        "region_attributes": {
+          "name": "Gas Jars",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 13,
+          "y": 510,
+          "width": 86,
+          "height": 115
+        },
+        "region_attributes": {
+          "name": "Water tap 1",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 635,
+          "y": 532,
+          "width": 58,
+          "height": 145
+        },
+        "region_attributes": {
+          "name": "Bunsen Burner",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 324,
+          "y": 631,
+          "width": 68,
+          "height": 105
+        },
+        "region_attributes": {
+          "name": "Gas Jar",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 550,
+          "y": 752,
+          "width": 142,
+          "height": 41
+        },
+        "region_attributes": {
+          "name": "Calculator",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 700,
+          "y": 93,
+          "width": 254,
+          "height": 684
+        },
+        "region_attributes": {
+          "name": "Girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 891,
+          "y": 201,
+          "width": 184,
+          "height": 553
+        },
+        "region_attributes": {
+          "name": "Girl 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 295,
+          "y": 451,
+          "width": 76,
+          "height": 127
+        },
+        "region_attributes": {
+          "name": "Water tap 2",
+          "type": "Object"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}

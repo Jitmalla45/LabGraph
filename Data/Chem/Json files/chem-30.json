@@ -1,0 +1,208 @@
+{
+  "Chemistry-Lab-30.jpg967085": {
+    "filename": "Chemistry-Lab-30.jpg",
+    "size": 967085,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 634,
+          "y": 507,
+          "width": 43,
+          "height": 63
+        },
+        "region_attributes": {
+          "name": "Jar",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 855,
+          "y": 536,
+          "width": 38,
+          "height": 59
+        },
+        "region_attributes": {
+          "name": "Gas Jar",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 165,
+          "y": 438,
+          "width": 19,
+          "height": 54
+        },
+        "region_attributes": {
+          "name": "Wash Bottle",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 246,
+          "y": 464,
+          "width": 32,
+          "height": 38
+        },
+        "region_attributes": {
+          "name": "Gas jar 2",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1022,
+          "y": 52,
+          "width": 162,
+          "height": 191
+        },
+        "region_attributes": {
+          "name": "Fan",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1097,
+          "y": 477,
+          "width": 72,
+          "height": 39
+        },
+        "region_attributes": {
+          "name": "Test Tubes",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 372,
+          "y": 435,
+          "width": 62,
+          "height": 33
+        },
+        "region_attributes": {
+          "name": "Voltmeter",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 416,
+          "y": 510,
+          "width": 82,
+          "height": 100
+        },
+        "region_attributes": {
+          "name": "Stands",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 236,
+          "y": 355,
+          "width": 105,
+          "height": 131
+        },
+        "region_attributes": {
+          "name": "Girls ",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 5,
+          "y": 578,
+          "width": 100,
+          "height": 172
+        },
+        "region_attributes": {
+          "name": "Chair",
+          "type": "Object"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 689,
+          "y": 338,
+          "width": 178,
+          "height": 391
+        },
+        "region_attributes": {
+          "name": "Girl 1",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 863,
+          "y": 349,
+          "width": 124,
+          "height": 221
+        },
+        "region_attributes": {
+          "name": "girl 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 436,
+          "y": 348,
+          "width": 111,
+          "height": 115
+        },
+        "region_attributes": {
+          "name": "Girls 2",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 566,
+          "y": 372,
+          "width": 113,
+          "height": 106
+        },
+        "region_attributes": {
+          "name": "Girls 3",
+          "type": "human"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 83,
+          "y": 357,
+          "width": 57,
+          "height": 126
+        },
+        "region_attributes": {
+          "name": "girl 3",
+          "type": "human"
+        }
+      }
+    ],
+    "file_attributes": {
+      "caption": "",
+      "public_domain": "no",
+      "image_url": ""
+    }
+  }
+}
