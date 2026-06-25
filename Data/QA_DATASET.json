@@ -1798,5 +1798,1805 @@
 "stratum": "change_detection",
 "generation_method": "automatic_from_graph_update",
 "ground_truth_source": "graph_update_analysis"
-}
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the student holding the funnel?",
+"answer": "The student holding the funnel is on the right side of the laboratory.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the burette stand?",
+"answer": "The burette stand is at the center-right laboratory bench.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the beaker?",
+"answer": "The beaker is in front of the student holding the funnel.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the beaker relative to the burette stand?",
+"answer": "The beaker is right of the burette stand.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the student holding the funnel relative to the burette stand?",
+"answer": "The student holding the funnel is right of the burette stand.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the conical flask relative to the burette stand?",
+"answer": "The conical flask is below the burette stand.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Describe the position of the beaker.",
+"answer": "The beaker is right of the burette stand, which is left of the student holding the funnel.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Explain the location of the conical flask.",
+"answer": "The conical flask is below the burette stand, which is left of the student holding the funnel.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Describe the position of the student holding the funnel.",
+"answer": "The student holding the funnel is right of the burette stand, which is left of the beaker.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Locate the conical flask using the burette stand as a landmark.",
+"answer": "The conical flask is below the burette stand.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the beaker with respect to the student holding the funnel as a landmark?",
+"answer": "The beaker is in front of the student holding the funnel.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Where is the burette stand with respect to the student holding the funnel as a landmark?",
+"answer": "The burette stand is left of the student holding the funnel.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Which object was added in the modified image?",
+"answer": "A rotary evaporator was added at the center-right laboratory bench.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The rotary evaporator is positioned between the burette stand and the student holding the funnel.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "Chemistry-Lab-1",
+"question": "Which new object appeared above the conical flask in the modified image?",
+"answer": "A rotary evaporator appeared above the conical flask.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the student using the digital meter?",
+"answer": "The student using the digital meter is at the front-right side of the laboratory.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the central reagent bottle rack?",
+"answer": "The central reagent bottle rack is along the middle of the laboratory bench.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the digital meter?",
+"answer": "The digital meter is on the front-right laboratory bench.",
+"stratum": "simple_spatial",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "human_verification"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the digital meter relative to the student using it?",
+"answer": "The digital meter is in front of the student using it.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the reagent bottle rack relative to the front-left student?",
+"answer": "The reagent bottle rack is right of the front-left student.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the student using the digital meter relative to the reagent bottle rack?",
+"answer": "The student using the digital meter is right of the reagent bottle rack.",
+"stratum": "single_hop_relational",
+"generation_method": "automatic_from_scene_graph",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Describe the position of the digital meter.",
+"answer": "The digital meter is in front of the student using it, who is right of the reagent bottle rack.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Explain the location of the front-left student.",
+"answer": "The front-left student is left of the reagent bottle rack, which is left of the student using the digital meter.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Describe the position of the student using the digital meter.",
+"answer": "The student using the digital meter is right of the reagent bottle rack, which is right of the front-left student.",
+"stratum": "k_hop_relational",
+"generation_method": "automatic_from_k_hop_reasoning",
+"ground_truth_source": "graph_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Locate the digital meter using the student using it as a landmark.",
+"answer": "The digital meter is in front of the student using it.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the reagent bottle rack with respect to the front-left student as a landmark?",
+"answer": "The reagent bottle rack is right of the front-left student.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Where is the student using the digital meter with respect to the reagent bottle rack as a landmark?",
+"answer": "The student using the digital meter is right of the reagent bottle rack.",
+"stratum": "k_landmark",
+"generation_method": "automatic_from_landmark_graph",
+"ground_truth_source": "landmark_traversal"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Which object was added in the modified image?",
+"answer": "A digital laboratory meter was added on the front-right laboratory bench.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "What new spatial relationship appeared in the modified image?",
+"answer": "The digital laboratory meter is positioned in front of the front-right student and beside the test tube.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+{
+"image_id": "Chemistry-Lab-2",
+"question": "Which new object appeared beside the test tube in the modified image?",
+"answer": "A digital laboratory meter appeared beside the test tube.",
+"stratum": "change_detection",
+"generation_method": "automatic_from_graph_update",
+"ground_truth_source": "graph_update_analysis"
+},
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the student at the front-left workstation?",
+    "answer": "The student is at the front-left laboratory workstation beside a reagent rack.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the student at the front-right workstation?",
+    "answer": "The student is at the front-right laboratory workstation behind a reagent rack.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the sink?",
+    "answer": "The sink is in the front-center of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the sink relative to the front-right student?",
+    "answer": "The sink is left of the front-right student.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the front-left student relative to the sink?",
+    "answer": "The front-left student is left of the sink.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the front-right student relative to the sink?",
+    "answer": "The front-right student is right of the sink.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Describe the position of the front-right student.",
+    "answer": "The front-right student is right of the sink, and the sink is right of the front-left student.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Explain the location of the sink.",
+    "answer": "The sink is between the front-left student and the front-right student.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Describe the position of the front-left student.",
+    "answer": "The front-left student is left of the sink, while the front-right student is right of the sink.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Locate the sink using the front-right student as a landmark.",
+    "answer": "The sink is left of the front-right student.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the front-left student with respect to the sink as a landmark?",
+    "answer": "The front-left student is left of the sink.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Where is the front-right student with respect to the sink as a landmark?",
+    "answer": "The front-right student is right of the sink.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Which object was added in the modified image?",
+    "answer": "A digital laboratory microscope was added on the right-side laboratory bench near the teacher.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "What new spatial relationship appeared in the modified image?",
+    "answer": "The digital laboratory microscope is positioned to the right of the teacher and beside the right-side reagent rack.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-3",
+    "question": "Which new object appeared near the teacher in the modified image?",
+    "answer": "A digital laboratory microscope appeared near the teacher on the right-side bench.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where is the student holding the small reagent bottle?",
+    "answer": "The student is at the front-right laboratory workstation beside the rotary evaporator.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where is the rotary evaporator?",
+    "answer": "The rotary evaporator is on the front-center laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where are the blue-framed windows?",
+    "answer": "The blue-framed windows are along the right wall of the laboratory.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where is the rotary evaporator relative to the front-right student?",
+    "answer": "The rotary evaporator is left of the front-right student.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where is the front-right student relative to the rotary evaporator?",
+    "answer": "The front-right student is right of the rotary evaporator.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where are the windows relative to the students on the right side?",
+    "answer": "The blue-framed windows are behind the students on the right side of the laboratory.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Describe the position of the front-right student.",
+    "answer": "The front-right student is right of the rotary evaporator, while the rotary evaporator is on the front-center laboratory bench.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Explain the location of the rotary evaporator.",
+    "answer": "The rotary evaporator is between the front-center laboratory bench and the front-right student.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Describe the position of the windows.",
+    "answer": "The blue-framed windows are behind the students working on the right side of the laboratory.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Locate the rotary evaporator using the front-right student as a landmark.",
+    "answer": "The rotary evaporator is left of the front-right student.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where is the front-right student with respect to the rotary evaporator as a landmark?",
+    "answer": "The front-right student is right of the rotary evaporator.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Where are the windows with respect to the students on the right side as a landmark?",
+    "answer": "The blue-framed windows are behind the students working on the right side.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Which object was added in the modified image?",
+    "answer": "A rotary evaporator was added on the front-center laboratory bench.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "What new spatial relationship appeared in the modified image?",
+    "answer": "The rotary evaporator is positioned left of the front-right student and in front of the reagent bottles.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-4",
+    "question": "Which new laboratory instrument appeared near the front bench in the modified image?",
+    "answer": "A rotary evaporator appeared on the front-center laboratory bench.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the student wearing glasses?",
+    "answer": "The student wearing glasses is in the center of the laboratory workstation.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the blue reagent rack?",
+    "answer": "The blue reagent rack is on the front-center laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the brown evaporating dish?",
+    "answer": "The brown evaporating dish is on the front-right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the student wearing glasses relative to the blue reagent rack?",
+    "answer": "The student wearing glasses is behind the blue reagent rack.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the brown evaporating dish relative to the student on the right?",
+    "answer": "The brown evaporating dish is in front of the student on the right.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the left student relative to the student wearing glasses?",
+    "answer": "The left student is left of the student wearing glasses.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Describe the position of the student wearing glasses.",
+    "answer": "The student wearing glasses is behind the blue reagent rack, while the left student is to her left and the right student is to her right.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Explain the location of the blue reagent rack.",
+    "answer": "The blue reagent rack is in front of the three students working together at the laboratory bench.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Describe the position of the brown evaporating dish.",
+    "answer": "The brown evaporating dish is in front of the student on the right and to the right of the blue reagent rack.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Locate the blue reagent rack using the student wearing glasses as a landmark.",
+    "answer": "The blue reagent rack is in front of the student wearing glasses.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the student wearing glasses with respect to the blue reagent rack as a landmark?",
+    "answer": "The student wearing glasses is behind the blue reagent rack.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Where is the brown evaporating dish with respect to the right student as a landmark?",
+    "answer": "The brown evaporating dish is in front of the student on the right.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Which object was added in the modified image?",
+    "answer": "A Graham condenser was added in front of the student wearing glasses.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "What new spatial relationship appeared in the modified image?",
+    "answer": "The Graham condenser is positioned in front of the student wearing glasses and behind the blue reagent rack.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-5",
+    "question": "Which new laboratory apparatus appeared near the center student in the modified image?",
+    "answer": "A Graham condenser appeared near the center student wearing glasses.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the student holding the conical flask?",
+    "answer": "The student holding the conical flask is at the front-left laboratory workstation.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the blue reagent rack?",
+    "answer": "The blue reagent rack is on the right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the tripod stand?",
+    "answer": "The tripod stand is on the front-left side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the student holding the conical flask relative to the tripod stand?",
+    "answer": "The student holding the conical flask is behind the tripod stand.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the blue reagent rack relative to the student holding the conical flask?",
+    "answer": "The blue reagent rack is to the right of the student holding the conical flask.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the student working behind the reagent rack relative to the blue reagent rack?",
+    "answer": "The student working behind the reagent rack is behind the blue reagent rack.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Describe the position of the student holding the conical flask.",
+    "answer": "The student holding the conical flask is behind the tripod stand and left of the blue reagent rack.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Explain the location of the blue reagent rack.",
+    "answer": "The blue reagent rack is to the right of the student holding the conical flask and in front of the student working behind it.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Describe the position of the tripod stand.",
+    "answer": "The tripod stand is in front of the student holding the conical flask and left of the blue reagent rack.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Locate the blue reagent rack using the student holding the conical flask as a landmark.",
+    "answer": "The blue reagent rack is to the right of the student holding the conical flask.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the tripod stand with respect to the student holding the conical flask as a landmark?",
+    "answer": "The tripod stand is in front of the student holding the conical flask.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Where is the student working behind the reagent rack with respect to the blue reagent rack as a landmark?",
+    "answer": "The student working behind the reagent rack is behind the blue reagent rack.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Which object was added in the modified image?",
+    "answer": "A digital laboratory balance was added on the front-right side of the laboratory bench.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "What new spatial relationship appeared in the modified image?",
+    "answer": "The digital laboratory balance is positioned in front of the blue reagent rack and to the right of the student holding the conical flask.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-7",
+    "question": "Which new laboratory instrument appeared near the front bench in the modified image?",
+    "answer": "A digital laboratory balance appeared on the front-right side of the laboratory bench.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the blue reagent rack?",
+    "answer": "The blue reagent rack is at the center of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the tripod stand?",
+    "answer": "The tripod stand is in front of the blue reagent rack.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the white measuring stand?",
+    "answer": "The white measuring stand is on the front-right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the tripod stand relative to the blue reagent rack?",
+    "answer": "The tripod stand is in front of the blue reagent rack.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the white measuring stand relative to the blue reagent rack?",
+    "answer": "The white measuring stand is to the right of the blue reagent rack.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the conical flask on the right relative to the white measuring stand?",
+    "answer": "The conical flask is to the right of the white measuring stand.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Describe the position of the tripod stand.",
+    "answer": "The tripod stand is in front of the blue reagent rack and to the left of the white measuring stand.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Explain the location of the white measuring stand.",
+    "answer": "The white measuring stand is to the right of the blue reagent rack and left of the right-side conical flask.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Describe the position of the blue reagent rack.",
+    "answer": "The blue reagent rack is behind the tripod stand and to the left of the white measuring stand.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Locate the tripod stand using the blue reagent rack as a landmark.",
+    "answer": "The tripod stand is directly in front of the blue reagent rack.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the white measuring stand with respect to the blue reagent rack as a landmark?",
+    "answer": "The white measuring stand is to the right of the blue reagent rack.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Where is the right-side conical flask with respect to the white measuring stand as a landmark?",
+    "answer": "The conical flask is to the right of the white measuring stand.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Which laboratory instrument was added in the modified image?",
+    "answer": "A rotary evaporator was added in front of the blue reagent rack near the center of the laboratory bench.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "What new spatial relationship appeared in the modified image?",
+    "answer": "The rotary evaporator is positioned in front of the blue reagent rack and behind the front-center round-bottom flask.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-9",
+    "question": "Which new laboratory apparatus appeared near the center of the bench in the modified image?",
+    "answer": "A rotary evaporator appeared near the center of the laboratory bench, between the blue reagent rack and the front glassware.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where is the chemistry teacher?",
+    "answer": "The chemistry teacher is standing at the center of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where is the rotary evaporator?",
+    "answer": "The rotary evaporator is on the left side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where are the test tube racks?",
+    "answer": "The test tube racks are on the front-left side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where is the rotary evaporator relative to the chemistry teacher?",
+    "answer": "The rotary evaporator is to the left of the chemistry teacher.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where are the two conical flasks relative to the chemistry teacher?",
+    "answer": "The two conical flasks are in front of the chemistry teacher.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where is the burette stand relative to the chemistry teacher?",
+    "answer": "The burette stand is to the right of the chemistry teacher.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Describe the location of the rotary evaporator.",
+    "answer": "The rotary evaporator is to the left of the chemistry teacher and behind the front-left test tube racks.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Explain the position of the burette stand.",
+    "answer": "The burette stand is to the right of the chemistry teacher and behind the conical flasks.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Describe the position of the chemistry teacher.",
+    "answer": "The chemistry teacher is between the rotary evaporator on the left and the burette stand on the right, with the conical flasks in front.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Locate the rotary evaporator using the chemistry teacher as a landmark.",
+    "answer": "The rotary evaporator is immediately to the left of the chemistry teacher.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where is the burette stand with respect to the chemistry teacher as a landmark?",
+    "answer": "The burette stand is on the right side of the chemistry teacher.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Where are the test tube racks with respect to the rotary evaporator as a landmark?",
+    "answer": "The test tube racks are in front of the rotary evaporator.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Which laboratory instrument was added in the modified image?",
+    "answer": "A rotary evaporator was added on the left side of the laboratory bench beside the chemistry teacher.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "What new spatial relationship appears in the modified image?",
+    "answer": "The rotary evaporator is positioned to the left of the chemistry teacher and behind the front-left test tube racks.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-13",
+    "question": "Which new piece of laboratory equipment appears near the left side of the bench in the modified image?",
+    "answer": "A rotary evaporator appears near the left side of the laboratory bench, adjacent to the chemistry teacher.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the student writing notes?",
+    "answer": "The student writing notes is seated at the front-right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the wooden reagent shelf?",
+    "answer": "The wooden reagent shelf is on the left side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the analytical instrument?",
+    "answer": "The analytical instrument is positioned behind the student writing notes near the center of the laboratory.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the student writing notes relative to the analytical instrument?",
+    "answer": "The student writing notes is in front of the analytical instrument.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the wooden reagent shelf relative to the student writing notes?",
+    "answer": "The wooden reagent shelf is to the left of the student writing notes.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the analytical instrument relative to the wooden reagent shelf?",
+    "answer": "The analytical instrument is to the right of the wooden reagent shelf.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Describe the position of the student writing notes.",
+    "answer": "The student writing notes is to the right of the wooden reagent shelf and in front of the analytical instrument.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Explain the location of the analytical instrument.",
+    "answer": "The analytical instrument is behind the student writing notes and to the right of the wooden reagent shelf.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Describe the position of the wooden reagent shelf.",
+    "answer": "The wooden reagent shelf is to the left of the student writing notes and to the left of the analytical instrument.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Locate the analytical instrument using the student writing notes as a landmark.",
+    "answer": "The analytical instrument is directly behind the student writing notes.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the wooden reagent shelf with respect to the student writing notes as a landmark?",
+    "answer": "The wooden reagent shelf is on the left side of the student writing notes.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Where is the student writing notes with respect to the analytical instrument as a landmark?",
+    "answer": "The student writing notes is in front of the analytical instrument.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Which laboratory instrument was added in the modified image?",
+    "answer": "A gas chromatograph (GC) instrument was added behind the student writing notes near the center of the laboratory.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "What new spatial relationship appears in the modified image?",
+    "answer": "The gas chromatograph is positioned behind the student writing notes and to the right of the wooden reagent shelf.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-14",
+    "question": "Which new laboratory equipment appears near the center of the laboratory in the modified image?",
+    "answer": "A gas chromatograph appears near the center of the laboratory behind the student writing notes.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where is the student preparing the solution?",
+    "answer": "The student preparing the solution is standing at the front-left laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where are the blue storage cabinets?",
+    "answer": "The blue storage cabinets are mounted along the back wall of the laboratory.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where is the laboratory sink?",
+    "answer": "The laboratory sink is located near the center of the front laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where is the student preparing the solution relative to the laboratory sink?",
+    "answer": "The student preparing the solution is to the left of the laboratory sink.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where are the blue storage cabinets relative to the student preparing the solution?",
+    "answer": "The blue storage cabinets are behind the student preparing the solution.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where is the laboratory sink relative to the blue storage cabinets?",
+    "answer": "The laboratory sink is in front of the blue storage cabinets.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Describe the position of the student preparing the solution.",
+    "answer": "The student preparing the solution is to the left of the laboratory sink and in front of the blue storage cabinets.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Explain the location of the laboratory sink.",
+    "answer": "The laboratory sink is to the right of the student preparing the solution and in front of the blue storage cabinets.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Describe the position of the blue storage cabinets.",
+    "answer": "The blue storage cabinets are behind both the student preparing the solution and the laboratory sink.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Locate the laboratory sink using the student preparing the solution as a landmark.",
+    "answer": "The laboratory sink is immediately to the right of the student preparing the solution.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where are the blue storage cabinets with respect to the student preparing the solution as a landmark?",
+    "answer": "The blue storage cabinets are behind the student preparing the solution.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Where is the student preparing the solution with respect to the blue storage cabinets as a landmark?",
+    "answer": "The student preparing the solution is in front of the blue storage cabinets.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Which laboratory instrument was added in the modified image?",
+    "answer": "A rotary evaporator with a pressure gauge was added near the center bench behind the laboratory sink.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "What new spatial relationship appears in the modified image?",
+    "answer": "The rotary evaporator is positioned behind the laboratory sink and in front of the blue storage cabinets.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-16",
+    "question": "Which new laboratory equipment appears near the center of the modified image?",
+    "answer": "A rotary evaporator equipped with a pressure gauge appears near the center bench of the laboratory.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the student performing the experiment?",
+    "answer": "The student performing the experiment is standing at the front-right laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the laboratory sink?",
+    "answer": "The laboratory sink is located on the left side of the front laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the electronic balance?",
+    "answer": "The electronic balance is positioned on the laboratory bench directly in front of the student performing the experiment.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the student performing the experiment relative to the laboratory sink?",
+    "answer": "The student performing the experiment is to the right of the laboratory sink.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the electronic balance relative to the student performing the experiment?",
+    "answer": "The electronic balance is directly in front of the student performing the experiment.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the electronic balance relative to the laboratory sink?",
+    "answer": "The electronic balance is to the right of the laboratory sink.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Describe the position of the student performing the experiment.",
+    "answer": "The student performing the experiment is to the right of the laboratory sink and behind the electronic balance.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Explain the location of the electronic balance.",
+    "answer": "The electronic balance is in front of the student performing the experiment and to the right of the laboratory sink.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Describe the location of the laboratory sink.",
+    "answer": "The laboratory sink is to the left of both the student performing the experiment and the electronic balance.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Locate the electronic balance using the student performing the experiment as a landmark.",
+    "answer": "The electronic balance is directly in front of the student performing the experiment.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the laboratory sink with respect to the student performing the experiment as a landmark?",
+    "answer": "The laboratory sink is to the left of the student performing the experiment.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Where is the student performing the experiment with respect to the laboratory sink as a landmark?",
+    "answer": "The student performing the experiment is to the right of the laboratory sink.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "Which laboratory instrument was added in the modified image?",
+    "answer": "A magnetic hotplate stirrer with an electronic balance was added beneath the conical flask being handled by the student.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "What new spatial relationship appears in the modified image?",
+    "answer": "The conical flask is now positioned on top of the newly added electronic balance and magnetic hotplate stirrer.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-19",
+    "question": "What new equipment is visible on the laboratory bench in the modified image?",
+    "answer": "An electronic balance integrated with a magnetic hotplate stirrer is visible on the laboratory bench directly in front of the student performing the experiment.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the student writing notes?",
+    "answer": "The student writing notes is standing at the front-right laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the laboratory sink?",
+    "answer": "The laboratory sink is located at the front-left side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the spectrophotometer?",
+    "answer": "The spectrophotometer is positioned on the laboratory bench in front of the student writing notes.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the student writing notes relative to the laboratory sink?",
+    "answer": "The student writing notes is to the right of the laboratory sink.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the spectrophotometer relative to the student writing notes?",
+    "answer": "The spectrophotometer is directly in front of the student writing notes.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the spectrophotometer relative to the laboratory sink?",
+    "answer": "The spectrophotometer is to the right of the laboratory sink.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Describe the position of the student writing notes.",
+    "answer": "The student writing notes is to the right of the laboratory sink and behind the spectrophotometer.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Explain the location of the spectrophotometer.",
+    "answer": "The spectrophotometer is in front of the student writing notes and to the right of the laboratory sink.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Describe the location of the laboratory sink.",
+    "answer": "The laboratory sink is to the left of both the student writing notes and the spectrophotometer.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Locate the spectrophotometer using the student writing notes as a landmark.",
+    "answer": "The spectrophotometer is directly in front of the student writing notes.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the laboratory sink with respect to the student writing notes as a landmark?",
+    "answer": "The laboratory sink is to the left of the student writing notes.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Where is the student writing notes with respect to the laboratory sink as a landmark?",
+    "answer": "The student writing notes is to the right of the laboratory sink.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "Which laboratory instrument was added in the modified image?",
+    "answer": "A spectrophotometer was added on the laboratory bench in front of the student writing notes.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "What new spatial relationship appears in the modified image?",
+    "answer": "The spectrophotometer is now positioned directly in front of the student writing notes and to the right of the laboratory sink.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-21",
+    "question": "What new equipment is visible on the laboratory bench in the modified image?",
+    "answer": "A spectrophotometer is visible on the front laboratory bench between the laboratory sink and the student writing notes.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the teacher demonstrating the experiment?",
+    "answer": "The teacher is standing on the left side of the laboratory bench demonstrating the experiment.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the electronic balance?",
+    "answer": "The electronic balance is positioned on the laboratory bench in front of the teacher and the student.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the volumetric flask containing the pink solution?",
+    "answer": "The volumetric flask containing the pink solution is placed on top of the electronic balance at the center of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the teacher relative to the electronic balance?",
+    "answer": "The teacher is to the left of the electronic balance.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the volumetric flask relative to the electronic balance?",
+    "answer": "The volumetric flask is placed on top of the electronic balance.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the electronic balance relative to the teacher?",
+    "answer": "The electronic balance is to the right of the teacher.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Describe the position of the teacher.",
+    "answer": "The teacher is to the left of the electronic balance and beside the student observing the experiment.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Explain the location of the volumetric flask.",
+    "answer": "The volumetric flask is on top of the electronic balance, which is positioned to the right of the teacher.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Describe the location of the electronic balance.",
+    "answer": "The electronic balance is to the right of the teacher and directly beneath the volumetric flask containing the pink solution.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Locate the electronic balance using the teacher as a landmark.",
+    "answer": "The electronic balance is positioned immediately to the right of the teacher.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the volumetric flask with respect to the teacher as a landmark?",
+    "answer": "The volumetric flask is to the right of the teacher and placed on the electronic balance.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Where is the teacher with respect to the electronic balance as a landmark?",
+    "answer": "The teacher is to the left of the electronic balance.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "Which laboratory instrument was added in the modified image?",
+    "answer": "An electronic balance was added on the laboratory bench beneath the volumetric flask containing the pink solution.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "What new spatial relationship appears in the modified image?",
+    "answer": "The volumetric flask containing the pink solution is now placed on top of the newly added electronic balance.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-22",
+    "question": "What new equipment is visible on the laboratory bench in the modified image?",
+    "answer": "An electronic balance is now visible on the laboratory bench between the teacher and the students, supporting the volumetric flask.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the electronic balance located?",
+    "answer": "The electronic balance is placed on the front-right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the beaker containing liquid?",
+    "answer": "The beaker containing liquid is placed on top of the electronic balance at the front-right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the brown reagent bottle?",
+    "answer": "The brown reagent bottle is positioned on the middle shelf of the laboratory apparatus stand near the center of the image.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the beaker relative to the electronic balance?",
+    "answer": "The beaker is placed directly on top of the electronic balance.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the electronic balance relative to the student standing at the front-right?",
+    "answer": "The electronic balance is directly in front of the student standing at the front-right side of the laboratory bench.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the brown reagent bottle relative to the laboratory stand?",
+    "answer": "The brown reagent bottle is placed on the middle shelf of the laboratory stand.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Describe the location of the beaker using the electronic balance as an intermediate object.",
+    "answer": "The beaker is placed on top of the electronic balance, which is positioned in front of the student standing at the front-right side of the bench.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Describe the position of the brown reagent bottle relative to the front-right student.",
+    "answer": "The brown reagent bottle is located on the laboratory stand to the left of the student standing at the front-right side of the laboratory bench.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Explain the location of the electronic balance relative to the brown reagent bottle.",
+    "answer": "The electronic balance is positioned to the right of the laboratory stand, while the brown reagent bottle is placed on the stand above and to the left of the balance.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Locate the beaker using the front-right student as a landmark.",
+    "answer": "The beaker is directly in front of the front-right student and rests on the electronic balance.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the electronic balance with respect to the front-right student as a landmark?",
+    "answer": "The electronic balance is immediately in front of the front-right student on the laboratory bench.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the brown reagent bottle with respect to the laboratory stand as a landmark?",
+    "answer": "The brown reagent bottle is placed on the middle shelf of the laboratory stand near the center of the bench.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "What new laboratory equipment was added in the modified image?",
+    "answer": "An electronic balance with a beaker placed on top of it and a brown reagent bottle on the laboratory stand were added in the modified image.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "What new spatial relationship involving the electronic balance appears in the modified image?",
+    "answer": "A beaker containing liquid is now placed on top of the newly added electronic balance in front of the front-right student.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Which new object is visible on the laboratory stand in the modified image?",
+    "answer": "A brown reagent bottle has been added to the middle shelf of the laboratory stand near the center of the image.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the electronic balance located?",
+    "answer": "The electronic balance is placed on the front-right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the beaker containing liquid?",
+    "answer": "The beaker containing liquid is placed on top of the electronic balance at the front-right side of the laboratory bench.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the brown reagent bottle?",
+    "answer": "The brown reagent bottle is positioned on the middle shelf of the laboratory apparatus stand near the center of the image.",
+    "stratum": "simple_spatial",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "human_verification"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the beaker relative to the electronic balance?",
+    "answer": "The beaker is placed directly on top of the electronic balance.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the electronic balance relative to the student standing at the front-right?",
+    "answer": "The electronic balance is directly in front of the student standing at the front-right side of the laboratory bench.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the brown reagent bottle relative to the laboratory stand?",
+    "answer": "The brown reagent bottle is placed on the middle shelf of the laboratory stand.",
+    "stratum": "single_hop_relational",
+    "generation_method": "automatic_from_scene_graph",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Describe the location of the beaker using the electronic balance as an intermediate object.",
+    "answer": "The beaker is placed on top of the electronic balance, which is positioned in front of the student standing at the front-right side of the bench.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Describe the position of the brown reagent bottle relative to the front-right student.",
+    "answer": "The brown reagent bottle is located on the laboratory stand to the left of the student standing at the front-right side of the laboratory bench.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Explain the location of the electronic balance relative to the brown reagent bottle.",
+    "answer": "The electronic balance is positioned to the right of the laboratory stand, while the brown reagent bottle is placed on the stand above and to the left of the balance.",
+    "stratum": "k_hop_relational",
+    "generation_method": "automatic_from_k_hop_reasoning",
+    "ground_truth_source": "graph_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Locate the beaker using the front-right student as a landmark.",
+    "answer": "The beaker is directly in front of the front-right student and rests on the electronic balance.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the electronic balance with respect to the front-right student as a landmark?",
+    "answer": "The electronic balance is immediately in front of the front-right student on the laboratory bench.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Where is the brown reagent bottle with respect to the laboratory stand as a landmark?",
+    "answer": "The brown reagent bottle is placed on the middle shelf of the laboratory stand near the center of the bench.",
+    "stratum": "k_landmark",
+    "generation_method": "automatic_from_landmark_graph",
+    "ground_truth_source": "landmark_traversal"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "What new laboratory equipment was added in the modified image?",
+    "answer": "An electronic balance with a beaker placed on top of it and a brown reagent bottle on the laboratory stand were added in the modified image.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "What new spatial relationship involving the electronic balance appears in the modified image?",
+    "answer": "A beaker containing liquid is now placed on top of the newly added electronic balance in front of the front-right student.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  },
+  {
+    "image_id": "Chemistry-Lab-27",
+    "question": "Which new object is visible on the laboratory stand in the modified image?",
+    "answer": "A brown reagent bottle has been added to the middle shelf of the laboratory stand near the center of the image.",
+    "stratum": "change_detection",
+    "generation_method": "automatic_from_graph_update",
+    "ground_truth_source": "graph_update_analysis"
+  }
 ]
